@@ -5,6 +5,8 @@ import Contact from "../Contact";
 import { ThemeProvider } from "styled-components";
 import { theme } from "../../themes/theme";
 import Header from "../../containers/Header";
+import Footer from "../../containers/Footer";
+import "./Template.css";
 
 const Template = () => {
   return (
@@ -12,9 +14,12 @@ const Template = () => {
       <>
         {/*HEADER CONTENT */}
         <Header />
-        <Route exact path='/' component={Home} />
-        <Route exact path='/contact' component={Contact} />
+        <section className='container'>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/contact' component={Contact} />
+        </section>
         {/*FOOTER CONTENT */}
+        <Footer />
       </>
     </ThemeProvider>
   );

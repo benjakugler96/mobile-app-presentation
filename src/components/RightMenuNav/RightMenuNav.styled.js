@@ -20,6 +20,11 @@ export const StyledRightMenuNav = styled.nav`
           text-align: center;
         }
       }
+      a:hover {
+        background: linear-gradient(150.35deg, #009fe9 15.81%, #ff3df4 87.73%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
     }
   }
 `;

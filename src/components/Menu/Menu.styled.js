@@ -52,7 +52,7 @@ export const StyledMenu = styled.nav`
     font-size: 36px;
     letter-spacing: 4px;
     line-height: 42px;
-    padding: 22px;
+    padding: 0 0 2rem 0;
     text-align: center;
     text-transform: uppercase;
   }
