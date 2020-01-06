@@ -36,7 +36,7 @@ export const HeaderStyledNav = styled.nav`
 `;
 
 export const HeaderStyledText = styled.span`
-  color: ${({ color }) => color};
+  color: ${({ color }) => color}
   font-size: 22px;
   line-height: 24px;
 `;

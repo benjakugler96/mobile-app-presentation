@@ -6,13 +6,10 @@ const RightMenuNav = () => (
   <StyledRightMenuNav>
     <ul>
       <li>
-        <Link>Contact us</Link>
+        <Link to='/contact/'>Contact us</Link>
       </li>
       <li>
         <Link>Download</Link>
-      </li>
-      <li>
-        <Link>What's the App about</Link>
       </li>
     </ul>
   </StyledRightMenuNav>

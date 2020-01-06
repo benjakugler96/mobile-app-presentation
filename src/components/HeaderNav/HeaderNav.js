@@ -24,10 +24,7 @@ const HeaderNav = () => (
       <li>
         <Link>
           <div>
-            <HeaderStyledText
-              color={({ theme }) => theme.light00}
-              gradientButton
-            >
+            <HeaderStyledText color={({ theme }) => theme.light00}>
               Download
             </HeaderStyledText>
           </div>

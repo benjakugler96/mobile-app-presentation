@@ -11,16 +11,14 @@ import "./Template.css";
 const Template = () => {
   return (
     <ThemeProvider theme={theme}>
-      <>
-        {/*HEADER CONTENT */}
-        <Header />
-        <section className='container'>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/contact' component={Contact} />
-        </section>
-        {/*FOOTER CONTENT */}
-        <Footer />
-      </>
+      {/*HEADER CONTENT */}
+      <Header />
+      <section className='container'>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/contact' component={Contact} />
+      </section>
+      {/*FOOTER CONTENT */}
+      <Footer />
     </ThemeProvider>
   );
 };
