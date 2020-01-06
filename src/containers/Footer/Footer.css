@@ -40,6 +40,9 @@
     display: flex;
     justify-content: center;
   }
+  .footer-logo {
+    margin-left: 2%;
+  }
 }
 
 .footer-logo {

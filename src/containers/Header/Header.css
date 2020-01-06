@@ -6,3 +6,9 @@
   align-items: center;
   padding: 2rem;
 }
+
+@media screen and (max-width: 792px) {
+  .main-header {
+    flex-direction: row-reverse;
+  }
+}

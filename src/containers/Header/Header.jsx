@@ -8,7 +8,7 @@ const Header = () => {
   const handleMenu = () => setOpenMenu(!openMenu);
   return (
     <header className='main-header'>
-      <Icon />
+      <Icon className='main-header-icon' />
       <HeaderNav />
       <Burger openMenu={openMenu} handleMenu={handleMenu} />
       <Menu openMenu={openMenu} handleMenu={handleMenu} />

@@ -12,10 +12,6 @@ export const StyledBurger = styled.button`
   padding: 0;
   z-index: 10;
 
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    left: 2rem;
-  }
-
   &:focus {
     outline: none;
   }
