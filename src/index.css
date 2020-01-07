@@ -14,6 +14,11 @@ body {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   height: 100vh;
   text-rendering: optimizeLegibility;
+  background: url(./assets/images/qaabelBackground.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 textarea {
   font-family: inherit;
