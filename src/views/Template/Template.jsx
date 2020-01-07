@@ -13,7 +13,7 @@ const Template = () => {
     <ThemeProvider theme={theme}>
       {/*HEADER CONTENT */}
       <Header />
-      <section className='container'>
+      <section className='template-container'>
         <Route exact path='/' component={Home} />
         <Route exact path='/contact' component={Contact} />
       </section>

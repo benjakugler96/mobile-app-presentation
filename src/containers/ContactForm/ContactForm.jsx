@@ -2,10 +2,15 @@ import React, { useState } from "react";
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  const onSubmit = () => console.log(email, subject);
   const [email, setEmail] = useState();
   const [subject, setSubject] = useState();
   const [comment, setComment] = useState();
+
+  const onSubmit = event => {
+    event.preventDefault();
+    //Handle here what you are going to do when users click on the submit button..
+
+  };
 
   return (
     <form onSubmit={onSubmit} className='contact-form flex-column'>
@@ -29,11 +34,11 @@ const ContactForm = () => {
       </label>
       <label className='flex-column'>
         Message:
-        <input
-          type='text'
+        <textarea
           placeholder='Details about what you want to know...'
           value={comment}
           onChange={event => setComment(event.target.value)}
+          rows="4"
         />
       </label>
 

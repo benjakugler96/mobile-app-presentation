@@ -14,10 +14,10 @@ const Menu = ({ openMenu, handleMenu }) => {
         <StyledMenuContainer>
           <StyledMenuOpacity onClick={() => handleMenu()} />
           <StyledMenu openMenu={openMenu}>
-            <img src={phoneImg} className='menu-img' />
+            <img src={phoneImg} className='menu-img' alt="app img" />
             <section>
               <header className='menu-title'>Menu</header>
-              <RightMenuNav />
+              <RightMenuNav handleMenu={handleMenu} />
             </section>
 
             <footer className='menu-footer'>www.waabel.com</footer>

@@ -5,7 +5,7 @@
   flex-direction: row;
   height: 271px;
   justify-content: space-between;
-  width: 100vw;
+  max-width: 100vw;
 }
 .footer-nav {
   width: 100%;

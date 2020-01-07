@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  width: 99vw;
 }
 *,
 *::after,
@@ -13,4 +14,8 @@ body {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   height: 100vh;
   text-rendering: optimizeLegibility;
+}
+textarea {
+  font-family: inherit;
+  font-size: inherit;
 }

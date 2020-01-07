@@ -3,11 +3,21 @@ import styled from "styled-components";
 export const StyledRightMenuNav = styled.nav`
   ul {
     list-style: none;
+    padding: 0; 
 
     li {
-      padding: 0;
-      margin-top: 54px;
       cursor: pointer;
+      margin-top: 54px;
+      padding: 0;
+
+      @media (max-width: ${({ theme }) => theme.tablet}) {
+        align-items: center;
+        border-bottom: 1px solid #CBCBCB;
+        display: flex;
+        height: 73px;
+        justify-content: center;
+        margin-top: 0;
+      }
 
       a {
         color: ${({ theme }) => theme.dark00};
@@ -15,9 +25,10 @@ export const StyledRightMenuNav = styled.nav`
         line-height: 42px;
         text-decoration: none;
 
-        @media (max-width: ${({ theme }) => theme.mobile}) {
+        @media (max-width: ${({ theme }) => theme.tablet}) {
           font-size: 1.5rem;
           text-align: center;
+          margin: 0 auto;
         }
       }
       a:hover {

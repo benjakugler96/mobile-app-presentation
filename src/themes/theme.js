@@ -6,6 +6,7 @@ export const theme = {
   light01: "#c2c2c2",
   light02: "#6d6d6d",
   light03: "#777777",
+  light04: "#666666",
 
   dark00: "#000000",
   dark01: "#141414",

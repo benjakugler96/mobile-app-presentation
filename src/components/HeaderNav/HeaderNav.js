@@ -6,7 +6,7 @@ const HeaderNav = () => (
   <HeaderStyledNav>
     <ul>
       <li>
-        <Link>
+        <Link to="/">
           <HeaderStyledText color={({ theme }) => theme.blue01}>
             Home
           </HeaderStyledText>
@@ -14,7 +14,7 @@ const HeaderNav = () => (
       </li>
 
       <li>
-        <Link>
+        <Link to="/">
           <HeaderStyledText color={({ theme }) => theme.dark00}>
             The App
           </HeaderStyledText>
@@ -22,7 +22,7 @@ const HeaderNav = () => (
       </li>
 
       <li>
-        <Link>
+        <Link to="/">
           <div>
             <HeaderStyledText color={({ theme }) => theme.light00}>
               Download

@@ -30,7 +30,7 @@ export const StyledMenu = styled.nav`
   top: 0;
   width: 31.61%;
 
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  @media (max-width: ${({ theme }) => theme.tablet}) {
     border-radius: 0;
     width: 100vw;
   }
@@ -41,7 +41,7 @@ export const StyledMenu = styled.nav`
     position: absolute;
     top: 20%;
 
-    @media (max-width: ${({ theme }) => theme.mobile}) {
+    @media (max-width: ${({ theme }) => theme.tablet}) {
       height: 0;
       width: 0;
     }
@@ -49,6 +49,7 @@ export const StyledMenu = styled.nav`
 
   .menu-title {
     border-bottom: 2px solid ${({ theme }) => theme.dark00};
+    color: ${({ theme }) => theme.light04}
     font-size: 36px;
     letter-spacing: 4px;
     line-height: 42px;

@@ -8,13 +8,13 @@ const Footer = () => (
     <nav className='footer-nav flex-1'>
       <ul>
         <li>
-          <Link>Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link>Contact us</Link>
+          <Link to="/contact/">Contact us</Link>
         </li>
         <li>
-          <Link>Download the App</Link>
+          <Link to="/">Download the App</Link>
         </li>
       </ul>
     </nav>
