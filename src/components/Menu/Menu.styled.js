@@ -1,17 +1,17 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledMenuContainer = styled.div`
-  background-color: ${({ theme }) => theme.opacity04};
-  bottom: 0;
-  position: absolute;
-  top: 0;
-  width: 100vw;
+	background-color: ${({ theme }) => theme.opacity04};
+	bottom: 0;
+	position: absolute;
+	top: 0;
+	width: 100vw;
 `;
 
 /* This element is just so we can click outside the menu and it will close */
 export const StyledMenuOpacity = styled.div`
-  height: 100%;
-  width: 59%;
+	height: 100%;
+	width: 59%;
 `;
 
 export const StyledMenu = styled.nav`
@@ -32,6 +32,7 @@ export const StyledMenu = styled.nav`
 
   @media (max-width: ${({ theme }) => theme.tablet}) {
     border-radius: 0;
+    position: fixed;
     width: 100vw;
   }
 

@@ -1,37 +1,29 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { HeaderStyledNav, HeaderStyledText } from "./HeaderNav.styled";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { HeaderStyledNav } from './HeaderNav.styled';
 
 const HeaderNav = () => (
-  <HeaderStyledNav>
-    <ul>
-      <li>
-        <Link to="/">
-          <HeaderStyledText color={({ theme }) => theme.blue01}>
-            Home
-          </HeaderStyledText>
-        </Link>
-      </li>
+	<HeaderStyledNav>
+		<ul>
+			<li>
+				<NavLink to='/' exact activeClassName='active-route'>
+					Home
+				</NavLink>
+			</li>
 
-      <li>
-        <Link to="/">
-          <HeaderStyledText color={({ theme }) => theme.dark00}>
-            The App
-          </HeaderStyledText>
-        </Link>
-      </li>
+			<li>
+				<NavLink to='/contact/' exact activeClassName='active-route'>
+					The App
+				</NavLink>
+			</li>
 
-      <li>
-        <Link to="/">
-          <div>
-            <HeaderStyledText color={({ theme }) => theme.light00}>
-              Download
-            </HeaderStyledText>
-          </div>
-        </Link>
-      </li>
-    </ul>
-  </HeaderStyledNav>
+			<li>
+				<NavLink to='/'>
+					<div>Download</div>
+				</NavLink>
+			</li>
+		</ul>
+	</HeaderStyledNav>
 );
 
 export default HeaderNav;
