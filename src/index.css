@@ -1,26 +1,30 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
-  width: 99vw;
+	margin: 0;
+	padding: 0;
+	width: 99.2vw;
 }
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 body {
-  font-family: Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  height: 100vh;
-  text-rendering: optimizeLegibility;
-  background: url(./assets/images/qaabelBackground.png); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	font-family: Helvetica, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	height: 100vh;
+	text-rendering: optimizeLegibility;
 }
 textarea {
-  font-family: inherit;
-  font-size: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+@media screen and (min-width: 792px) {
+	body {
+		background: url(./assets/images/qaabelBackground.png);
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
