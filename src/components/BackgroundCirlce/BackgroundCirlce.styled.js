@@ -7,7 +7,7 @@ export const StyledCircle = styled.div`
     width: ${size}px;
     border-radius: ${size * 2}px;
   `}
-	position: absolute;
+	position: fixed;
 	right: ${({ right }) => right};
 	top: ${({ top }) => top};
 	z-index: -10;
