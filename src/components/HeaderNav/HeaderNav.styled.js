@@ -24,15 +24,16 @@ export const HeaderStyledNav = styled.nav`
 		li {
 			margin-right: 54px;
 			a {
-        text-decoration: none;
-        color: ${({ theme }) => theme.dark00}
-        font-size: 22px;
-        line-height: 24px;
+				text-decoration: none;
+				color: ${({ theme }) => theme.dark00};
+				font-size: 22px;
+				line-height: 24px;
 			}
 		}
 
 		div {
 			background: ${({ theme }) => theme.gradient};
+			color: ${({ theme }) => theme.light00};
 			border-radius: 26px;
 			height: 52px;
 			width: 224px;
