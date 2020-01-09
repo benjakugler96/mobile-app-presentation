@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+
+This is a free responsive mock landing page for presenting some nice mobile app.
+
+## Screenshots
+
+![Screenshot](desktopScreen.png)
+![Screenshot](mobileScreen.png)
 
 ## Available Scripts
 
