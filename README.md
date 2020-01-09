@@ -7,7 +7,7 @@ This is a free responsive mock landing page for presenting some nice mobile app.
 ![Screenshot](desktopScreen.png)
 
 <p align="center">
-  <img width="460" height="300" src="./mobileScreen.png">
+  <img src="./mobileScreen.png">
 </p>
 ## Available Scripts
 
